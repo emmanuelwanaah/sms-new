@@ -33,7 +33,8 @@ app.post("/send-sms", async (req, res) => {
           headers: {
             "accept": "application/json",
             "content-type": "application/json",
-            "api-key": "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", // Replace with your API key
+            // "api-key": "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", 
+            // Replace with your API key
           },
         }
       );
